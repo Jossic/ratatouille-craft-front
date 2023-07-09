@@ -8,14 +8,15 @@ export const useGuestsSection = () => {
   const [guests, setGuests] = useState<Guest[]>([]);
   const { idProvider } = useDependencies();
   const guestForm = useRef(new GuestForm(idProvider));
-  
+
   function addGuest() {
     const newState = guestForm.current.addGuest(guests);
     setGuests(newState);
   }
 
   function removeGuest(id: string) {
-    setGuests((guests) => guests.filter((guest) => guest.id !== id));
+    const newState = guestForm.current.removeGuest(guests, id);
+    setGuests(newState);
   }
 
   function updateGuest(id: string, key: string, value: any) {
