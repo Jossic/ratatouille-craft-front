@@ -5,14 +5,14 @@ import { useGuestsSection } from '@ratatouille/modules/order/react/sections/use-
 import DeleteIcon from '@mui/icons-material/Delete';
 
 export const GuestsSection: React.FC<{}> = ({}) => {
-  const { addGuest, removeGuest, updateGuest, isSubmitable, guests, onNext, changeOrganizer } = useGuestsSection();
+  const { addGuest, removeGuest, updateGuest, isSubmitable, form, onNext, changeOrganizer } = useGuestsSection();
 
   console.log('isSubmitable =>', isSubmitable);
   return (
     <Box>
       <Typography>Guests</Typography>
       <Grid sx={{ paddingTop: 2 }} rowSpacing={4}>
-        {guests.map((guest, index) => (
+        {form.guests.map((guest, index) => (
           <Box key={Math.random()}>
             <GuestRow
               id={guest.id}
@@ -26,13 +26,7 @@ export const GuestsSection: React.FC<{}> = ({}) => {
         ))}
       </Grid>
 
-      <Grid
-        container
-        direction={'row'}
-        alignItems={'center'}
-        spacing={1}
-        marginTop={2}
-      >
+      <Grid container direction={'row'} alignItems={'center'} spacing={1} marginTop={2}>
         <Grid item>
           <Button variant={'contained'} onClick={addGuest}>
             Ajouter
@@ -55,48 +49,34 @@ const GuestRow: React.FC<{
   age: number;
   onChange: (id: string, key: string, value: any) => void;
   remove: (id: string) => void;
-}> = ({
-        id,
-        firstName,
-        lastName,
-        age,
-        onChange,
-        remove,
-      }) => {
-  return <Box>
-    <Grid
-      container
-      direction={'row'}
-      alignItems={'center'}
-      spacing={1}>
-      <Grid item>
-        <FormControl>
-          <FormLabel>Prénom</FormLabel>
-          <TextField value={firstName} onChange={(e) => onChange(id, 'firstName', e.target.value)} />
-        </FormControl>
+}> = ({ id, firstName, lastName, age, onChange, remove }) => {
+  return (
+    <Box>
+      <Grid container direction={'row'} alignItems={'center'} spacing={1}>
+        <Grid item>
+          <FormControl>
+            <FormLabel>Prénom</FormLabel>
+            <TextField value={firstName} onChange={(e) => onChange(id, 'firstName', e.target.value)} />
+          </FormControl>
+        </Grid>
+        <Grid item>
+          <FormControl>
+            <FormLabel>Nom</FormLabel>
+            <TextField value={lastName} onChange={(e) => onChange(id, 'lastName', e.target.value)} />
+          </FormControl>
+        </Grid>
+        <Grid item>
+          <FormControl>
+            <FormLabel>Age</FormLabel>
+            <TextField value={age} onChange={(e) => onChange(id, 'age', parseInt(e.target.value))} />
+          </FormControl>
+        </Grid>
+        <Box sx={{ marginTop: 2 }}>
+          <Button variant={'contained'} onClick={() => remove(id)} color={'error'} startIcon={<DeleteIcon />}>
+            Supprimer
+          </Button>
+        </Box>
       </Grid>
-      <Grid item>
-        <FormControl>
-          <FormLabel>Nom</FormLabel>
-          <TextField value={lastName} onChange={(e) => onChange(id, 'lastName', e.target.value)} />
-        </FormControl>
-      </Grid>
-      <Grid item>
-        <FormControl>
-          <FormLabel>Age</FormLabel>
-          <TextField value={age} onChange={(e) => onChange(id, 'age', parseInt(e.target.value))} />
-        </FormControl>
-      </Grid>
-      <Box sx={{ marginTop: 2 }}>
-        <Button
-          variant={'contained'}
-          onClick={() => remove(id)}
-          color={'error'}
-          startIcon={<DeleteIcon />}
-        >
-          Supprimer
-        </Button>
-      </Box>
-    </Grid>
-  </Box>;
+    </Box>
+  );
 };

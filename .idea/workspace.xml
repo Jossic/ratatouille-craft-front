@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="" />
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: Removing a guest">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/GuestsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/GuestsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ry7ubNGW7IzuQt5i5mytyCxpn6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,24 +44,81 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/jest",
     "nodejs_package_manager_path": "pnpm",
     "prettierjs.PrettierConfiguration.Package": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.test">
+    <configuration name="Add a guest.should add a guest when there is already one" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" />
+      <test-names>
+        <test-name value="Add a guest" />
+        <test-name value="should add a guest when there is already one" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Add a guest.should add a guest when there is already two" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" />
+      <test-names>
+        <test-name value="Add a guest" />
+        <test-name value="should add a guest when there is already two" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Guest form" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" />
+      <test-names>
+        <test-name value="Guest form" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Remove a guest" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" />
+      <test-names>
+        <test-name value="Remove a guest" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="dev" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -56,7 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Jest.Guest form" />
+        <item itemvalue="Jest.Remove a guest" />
+        <item itemvalue="Jest.Add a guest.should add a guest when there is already two" />
+        <item itemvalue="Jest.Add a guest.should add a guest when there is already one" />
       </list>
     </recent_temporary>
   </component>
@@ -69,11 +143,41 @@
       <option name="presentableId" value="Default" />
       <updated>1688210690952</updated>
       <workItem from="1688210693678" duration="2484000" />
-      <workItem from="1688215411741" duration="3116000" />
+      <workItem from="1688215411741" duration="8164000" />
+      <workItem from="1688296911306" duration="1803000" />
+      <workItem from="1688454291702" duration="3359000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
+      <created>1688242966616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688242966616</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Removing a guest">
+      <created>1688905267133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688905267133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Removing a guest">
+      <created>1688905297485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688905297485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Add a guest" />
+    <MESSAGE value="feat: Add dependencie injection in react" />
+    <MESSAGE value="feat: Removing a guest" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Removing a guest" />
   </component>
 </project>
