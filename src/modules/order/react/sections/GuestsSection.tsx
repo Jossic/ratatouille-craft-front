@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Button, FormControl, FormLabel, Grid, TextField, Typography } from '@mui/material';
+import { Box, Button, Checkbox, FormControl, FormControlLabel, FormLabel, Grid, TextField, Typography } from '@mui/material';
 import { useGuestsSection } from '@ratatouille/modules/order/react/sections/use-guests-section';
 import DeleteIcon from '@mui/icons-material/Delete';
 
@@ -19,7 +19,9 @@ export const GuestsSection: React.FC<{}> = ({}) => {
               firstName={guest.firstName}
               lastName={guest.lastName}
               age={guest.age}
+              isOrganizer={guest.id === form.organizerId}
               onChange={updateGuest}
+              changeOrganizer={changeOrganizer}
               remove={removeGuest}
             />
           </Box>
@@ -47,9 +49,11 @@ const GuestRow: React.FC<{
   firstName: string;
   lastName: string;
   age: number;
+  isOrganizer: boolean;
   onChange: (id: string, key: string, value: any) => void;
+  changeOrganizer: (id: string) => void;
   remove: (id: string) => void;
-}> = ({ id, firstName, lastName, age, onChange, remove }) => {
+}> = ({ id, firstName, lastName, age, isOrganizer, onChange, changeOrganizer, remove }) => {
   return (
     <Box>
       <Grid container direction={'row'} alignItems={'center'} spacing={1}>
@@ -70,6 +74,12 @@ const GuestRow: React.FC<{
             <FormLabel>Age</FormLabel>
             <TextField value={age} onChange={(e) => onChange(id, 'age', parseInt(e.target.value))} />
           </FormControl>
+        </Grid>
+        <Grid item>
+          <FormControlLabel
+            control={<Checkbox checked={isOrganizer} onChange={(e) => changeOrganizer(id)} name='checkedB' color='primary' />}
+            label={'Organisateur'}
+          ></FormControlLabel>
         </Grid>
         <Box sx={{ marginTop: 2 }}>
           <Button variant={'contained'} onClick={() => remove(id)} color={'error'} startIcon={<DeleteIcon />}>

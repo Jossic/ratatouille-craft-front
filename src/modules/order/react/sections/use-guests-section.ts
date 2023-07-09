@@ -26,8 +26,9 @@ export const useGuestsSection = () => {
     // ...
   }
 
-  function changeOrganizer() {
-    // ...
+  function changeOrganizer(id: string) {
+    const newState = guestForm.current.changeOrganizer(form, id);
+    setForm(newState);
   }
 
   function onNext() {
@@ -35,7 +36,7 @@ export const useGuestsSection = () => {
   }
 
   function isSubmitable() {
-    return false;
+    return guestForm.current.isSubmitable(form);
   }
 
   return {

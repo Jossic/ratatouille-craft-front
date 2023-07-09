@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: Removing a guest">
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: Changing form model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/GuestsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/GuestsSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" afterDir="false" />
     </list>
@@ -59,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="Jest.Guest form">
     <configuration name="Add a guest.should add a guest when there is already one" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -145,7 +141,7 @@
       <workItem from="1688210693678" duration="2484000" />
       <workItem from="1688215411741" duration="8164000" />
       <workItem from="1688296911306" duration="1803000" />
-      <workItem from="1688454291702" duration="3359000" />
+      <workItem from="1688454291702" duration="5978000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -168,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688905297485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Changing form model">
+      <created>1688906219115</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688906219115</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +181,7 @@
     <MESSAGE value="feat: Add a guest" />
     <MESSAGE value="feat: Add dependencie injection in react" />
     <MESSAGE value="feat: Removing a guest" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Removing a guest" />
+    <MESSAGE value="feat: Changing form model" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Changing form model" />
   </component>
 </project>

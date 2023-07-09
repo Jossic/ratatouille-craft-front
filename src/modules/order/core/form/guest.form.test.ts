@@ -127,4 +127,32 @@ describe('Guest form', () => {
       ]);
     });
   });
+
+  describe('Add an organizer', () => {
+    it('set the organizerId to null when the user does not exist', () => {
+      const state = form.changeOrganizer(emptyInitialState, '1');
+      expect(state.organizerId).toEqual(null);
+    });
+
+    it('when no one is an organizer, the first user should be the organizer', () => {
+      const state = form.changeOrganizer(stateWithOneGuest, '1');
+      expect(state.organizerId).toEqual('1');
+    });
+  });
+
+  describe('isSubmitable', () => {
+    it('when there is no organizer, it should not be submitable', function () {
+      const isSubmitable = form.isSubmitable(emptyInitialState);
+      expect(isSubmitable).toEqual(false);
+    });
+
+    it('when there is an organizer, it should be submitable', function () {
+      const withOrganizerState: OrderingDomainModel.Form = {
+        ...stateWithOneGuest,
+        organizerId: '1',
+      };
+      const isSubmitable = form.isSubmitable(withOrganizerState);
+      expect(isSubmitable).toEqual(true);
+    });
+  });
 });
