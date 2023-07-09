@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: Choose an organizer">
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: Update a guest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/GuestsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/GuestsSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +139,7 @@
       <workItem from="1688210693678" duration="2484000" />
       <workItem from="1688215411741" duration="8164000" />
       <workItem from="1688296911306" duration="1803000" />
-      <workItem from="1688454291702" duration="7534000" />
+      <workItem from="1688454291702" duration="8319000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688929546484</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Update a guest">
+      <created>1688931100790</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688931100790</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +195,7 @@
     <MESSAGE value="feat: Removing a guest" />
     <MESSAGE value="feat: Changing form model" />
     <MESSAGE value="feat: Choose an organizer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Choose an organizer" />
+    <MESSAGE value="feat: Update a guest" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Update a guest" />
   </component>
 </project>
