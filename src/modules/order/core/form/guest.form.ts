@@ -32,7 +32,7 @@ export class GuestForm {
   }
 
   isSubmitable(state: OrderingDomainModel.Form) {
-    return state.guests.length > 0 && state.organizerId !== null;
+    return state.guests.every((guest) => guest.age >= 0 && guest.firstName.length > 0 && guest.lastName.length > 0) && state.organizerId !== null;
   }
 
   updateGuest<T extends keyof OrderingDomainModel.Guest>(state: OrderingDomainModel.Form, id: string, key: T, value: OrderingDomainModel.Guest[T]) {

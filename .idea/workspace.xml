@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: Update a guest">
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: immer refactor">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" afterDir="false" />
@@ -48,26 +51,12 @@
     "nodejs_package_manager_path": "pnpm",
     "prettierjs.PrettierConfiguration.Package": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Add a guest.should add a guest when there is already one" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/modules/order/core/form/guest.form.test.ts" />
-      <test-names>
-        <test-name value="Add a guest" />
-        <test-name value="should add a guest when there is already one" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Add a guest.should add a guest when there is already two" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -108,6 +97,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,13 +117,24 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Wallaby" type="wallaby" factoryName="wallaby" configType="Automatic" configFolder="$PROJECT_DIR$" wsl="No" SmartStart="No">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.Add a guest.should add a guest when there is already two" />
+      <item itemvalue="Jest.Guest form" />
+      <item itemvalue="Jest.Remove a guest" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="Wallaby.js.Wallaby" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.Guest form" />
         <item itemvalue="Jest.Remove a guest" />
         <item itemvalue="Jest.Add a guest.should add a guest when there is already two" />
-        <item itemvalue="Jest.Add a guest.should add a guest when there is already one" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +149,8 @@
       <workItem from="1688210693678" duration="2484000" />
       <workItem from="1688215411741" duration="8164000" />
       <workItem from="1688296911306" duration="1803000" />
-      <workItem from="1688454291702" duration="8319000" />
+      <workItem from="1688454291702" duration="10310000" />
+      <workItem from="1690227191830" duration="2406000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -183,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688931100790</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: immer refactor">
+      <created>1688931868116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688931868116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +214,7 @@
     <MESSAGE value="feat: Changing form model" />
     <MESSAGE value="feat: Choose an organizer" />
     <MESSAGE value="feat: Update a guest" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Update a guest" />
+    <MESSAGE value="feat: immer refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: immer refactor" />
   </component>
 </project>
