@@ -4,6 +4,7 @@ import { combineReducers, configureStore, createListenerMiddleware } from '@redu
 import { Dependencies } from '@ratatouille/modules/store/dependencies';
 import { orderingReducer } from '@ratatouille/modules/order/core/store/ordering.slice';
 import { registerOrderingStepListeners } from '@ratatouille/modules/order/core/store/ordering-step.listener';
+import { registerTablesListeners } from '@ratatouille/modules/order/core/store/tables.listener';
 
 const reducers = combineReducers({
   ordering: orderingReducer,
@@ -22,6 +23,7 @@ export const createStore = (config: { initialState?: AppState; dependencies: Dep
     middleware: (getDefaultMiddleware) => {
       const listener = createListenerMiddleware();
       registerOrderingStepListeners(listener);
+      registerTablesListeners(listener);
       return getDefaultMiddleware({
         thunk: {
           extraArgument: config.dependencies,
