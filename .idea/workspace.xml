@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: add step and step listener">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: fetching tables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/react/pages/order/OrderPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/pages/order/OrderPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/store/dependencies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/store/dependencies.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +25,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Ry7ubNGW7IzuQt5i5mytyCxpn6" />
   <component name="ProjectLevelVcsManager">
@@ -164,7 +159,7 @@
       <workItem from="1688215411741" duration="8164000" />
       <workItem from="1688296911306" duration="1803000" />
       <workItem from="1688454291702" duration="10310000" />
-      <workItem from="1690227191830" duration="9534000" />
+      <workItem from="1690227191830" duration="10536000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -236,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690314425236</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: fetching tables">
+      <created>1690316500293</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690316500293</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +255,7 @@
     <MESSAGE value="feat: improve tests for submit" />
     <MESSAGE value="feat: redux setup" />
     <MESSAGE value="feat: add step and step listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add step and step listener" />
+    <MESSAGE value="feat: fetching tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fetching tables" />
   </component>
 </project>
