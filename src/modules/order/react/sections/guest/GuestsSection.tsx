@@ -1,7 +1,7 @@
 'use client';
 
 import { Box, Button, Checkbox, FormControl, FormControlLabel, FormLabel, Grid, TextField, Typography } from '@mui/material';
-import { useGuestsSection } from '@ratatouille/modules/order/react/sections/use-guests-section';
+import { useGuestsSection } from '@ratatouille/modules/order/react/sections/guest/use-guests-section';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { OrderingDomainModel } from '@ratatouille/modules/order/core/model/ordering.domain-model';
 

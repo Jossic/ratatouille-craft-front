@@ -31,8 +31,31 @@ export class GuestForm {
     });
   }
 
+  validate(state: OrderingDomainModel.Form) {
+    const errors = [];
+    if (state.organizerId === null) {
+      errors.push('Organizer is not selected');
+    }
+
+    state.guests.forEach((guest) => {
+      if (guest.age <= 0) {
+        errors.push('Age must be greater than 0');
+      }
+
+      if (guest.firstName.length === 0) {
+        errors.push('First name is required');
+      }
+
+      if (guest.lastName.length === 0) {
+        errors.push('Last name is required');
+      }
+    });
+
+    return errors;
+  }
+
   isSubmitable(state: OrderingDomainModel.Form) {
-    return state.guests.every((guest) => guest.age >= 0 && guest.firstName.length > 0 && guest.lastName.length > 0) && state.organizerId !== null;
+    return this.validate(state).length === 0;
   }
 
   updateGuest<T extends keyof OrderingDomainModel.Guest>(state: OrderingDomainModel.Form, id: string, key: T, value: OrderingDomainModel.Guest[T]) {

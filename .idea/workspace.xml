@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: improve tests for submit">
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: redux setup">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/form/guest.form.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/pages/order/OrderPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/pages/order/OrderPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/GuestsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/guest/GuestsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/use-guests-section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/guest/use-guests-section.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/src/modules/order/react/sections/reserved",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +59,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/order/react/sections/reserved" />
+      <recent name="$PROJECT_DIR$/src/modules/order/react/sections/summary" />
+      <recent name="$PROJECT_DIR$/src/modules/order/react/sections/menu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/order/react/sections/guest" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="Add a guest.should add a guest when there is already two" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -147,7 +163,7 @@
       <workItem from="1688215411741" duration="8164000" />
       <workItem from="1688296911306" duration="1803000" />
       <workItem from="1688454291702" duration="10310000" />
-      <workItem from="1690227191830" duration="4054000" />
+      <workItem from="1690227191830" duration="7544000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -205,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690229705031</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: redux setup">
+      <created>1690231305704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690231305704</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +243,7 @@
     <MESSAGE value="feat: Update a guest" />
     <MESSAGE value="feat: immer refactor" />
     <MESSAGE value="feat: improve tests for submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: improve tests for submit" />
+    <MESSAGE value="feat: redux setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: redux setup" />
   </component>
 </project>
