@@ -10,4 +10,10 @@ export const registerOrderingStepListeners = (listener: ListenerMiddlewareInstan
       api.dispatch(orderingSlice.actions.setStep(OrderingStep.TABLE));
     },
   });
+  listener.startListening({
+    actionCreator: orderingSlice.actions.chooseTable,
+    effect: (_, api) => {
+      api.dispatch(orderingSlice.actions.setStep(OrderingStep.MENU));
+    },
+  });
 };

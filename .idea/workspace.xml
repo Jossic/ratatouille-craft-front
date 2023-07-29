@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: fetching tables usecase">
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: setup table gateway in memory and stub">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/app/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/app/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/usecases/fetch-tables.usecase.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/usecases/fetch-tables.usecase.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/usecases/fetch-tables.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/usecases/fetch-tables.usecase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/app/react/DependenciesProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/app/react/DependenciesProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/gateway-infra/inmemory.table-gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/gateway-infra/inmemory.table-gateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/store/ordering-step.listener.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/store/ordering-step.listener.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/store/ordering.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/store/ordering.slice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/guest/use-guests-section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/guest/use-guests-section.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/table/TableSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/table/TableSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/testing/tests-environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/testing/tests-environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/src/modules/order/core/store",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/jest",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/src/modules/order/core/store&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jossic/Dropbox/JOSSIC/6-development/Devs/craftsmanship/ratatouille-starter/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/modules/order/core/store" />
@@ -70,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/modules/order/react/sections/guest" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="Wallaby.js.Wallaby">
     <configuration name="Add a guest.should add a guest when there is already two" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -164,7 +171,8 @@
       <workItem from="1688215411741" duration="8164000" />
       <workItem from="1688296911306" duration="1803000" />
       <workItem from="1688454291702" duration="10310000" />
-      <workItem from="1690227191830" duration="11726000" />
+      <workItem from="1690227191830" duration="13128000" />
+      <workItem from="1690399879446" duration="4727000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -250,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690317527174</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: setup table gateway in memory and stub">
+      <created>1690318821765</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690318821765</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +284,7 @@
     <MESSAGE value="feat: add step and step listener" />
     <MESSAGE value="feat: fetching tables" />
     <MESSAGE value="feat: fetching tables usecase" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fetching tables usecase" />
+    <MESSAGE value="feat: setup table gateway in memory and stub" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setup table gateway in memory and stub" />
   </component>
 </project>

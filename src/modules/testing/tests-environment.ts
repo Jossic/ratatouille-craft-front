@@ -1,26 +1,22 @@
-import { AppState, createStore } from "@ratatouille/modules/store/store";
-import { Dependencies } from "@ratatouille/modules/store/dependencies";
+import { AppState, createStore } from '@ratatouille/modules/store/store';
+import { Dependencies } from '@ratatouille/modules/store/dependencies';
 
 /**
  * Create testing dependencies with provided defaults
  * @param dependencies
  * @returns
  */
-const createDependencies = (
-  dependencies?: Partial<Dependencies>
-): Dependencies => ({
-  ...dependencies,
-});
+const createDependencies = (dependencies?: Partial<Dependencies>): Dependencies =>
+  <Dependencies>{
+    ...dependencies,
+  };
 
 /**
  * Creates store initialized with a partial state
  * @param config
  * @returns
  */
-export const createTestStore = (config?: {
-  initialState?: Partial<AppState>;
-  dependencies?: Partial<Dependencies>;
-}) => {
+export const createTestStore = (config?: { initialState?: Partial<AppState>; dependencies?: Partial<Dependencies> }) => {
   const initialStore = createStore({
     dependencies: createDependencies(config?.dependencies),
   });
