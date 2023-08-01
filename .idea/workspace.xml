@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: get selectable entries">
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: menu form for all menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +161,7 @@
       <workItem from="1688296911306" duration="1803000" />
       <workItem from="1688454291702" duration="10310000" />
       <workItem from="1690227191830" duration="13128000" />
-      <workItem from="1690399879446" duration="11203000" />
+      <workItem from="1690399879446" duration="12440000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690922513429</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: menu form for all menu">
+      <created>1690923568838</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690923568838</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +297,7 @@
     <MESSAGE value="feat: setup table gateway in memory and stub" />
     <MESSAGE value="feat: select table and next step" />
     <MESSAGE value="feat: get selectable entries" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: get selectable entries" />
+    <MESSAGE value="feat: menu form for all menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: menu form for all menu" />
   </component>
 </project>
