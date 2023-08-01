@@ -13,8 +13,6 @@ h
 8src/modules/order/react/sections/guest/GuestsSection.tsx,e/7/e74e68017d258e22d23e105929fababb01592704
 V
 &src/modules/core/system.id-provider.ts,9/3/935177b71f318f93b4adec14e73d7e42ef8efcdd
-e
-5src/modules/order/react/sections/menu/MenuSection.tsx,7/f/7f81240a52584bf324f81bfb8ed9fad01aeb7294
 _
 /src/modules/order/core/gateway/table.factory.ts,5/0/50c7df6bcca54560859187fee7bc6dfff81ac889
 _
@@ -44,5 +42,3 @@ O
 src/modules/core/id-provider.ts,3/2/328609ce7106b59737474940df30437f3e877859
 Q
 !src/modules/store/dependencies.ts,4/9/499d69c67601f9978fb0bd4d5ad2fd2895372110
-a
-1src/modules/order/react/pages/order/OrderPage.tsx,0/b/0b1d50c1bf56e68fdd4c3f58b3f34e59d82bfded

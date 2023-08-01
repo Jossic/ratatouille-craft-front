@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: setup table gateway in memory and stub">
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: select table and next step">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/app/react/DependenciesProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/app/react/DependenciesProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/gateway-infra/inmemory.table-gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/gateway-infra/inmemory.table-gateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/guest.factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/guest.factory.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/store/ordering-step.listener.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/store/ordering-step.listener.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/store/ordering.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/store/ordering.slice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/guest/use-guests-section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/guest/use-guests-section.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/table/TableSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/table/TableSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/testing/tests-environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/testing/tests-environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/menu/MenuSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/menu/MenuSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +166,7 @@
       <workItem from="1688296911306" duration="1803000" />
       <workItem from="1688454291702" duration="10310000" />
       <workItem from="1690227191830" duration="13128000" />
-      <workItem from="1690399879446" duration="4727000" />
+      <workItem from="1690399879446" duration="10020000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -265,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690318821765</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: select table and next step">
+      <created>1690639684563</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690639684563</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +286,7 @@
     <MESSAGE value="feat: fetching tables" />
     <MESSAGE value="feat: fetching tables usecase" />
     <MESSAGE value="feat: setup table gateway in memory and stub" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: setup table gateway in memory and stub" />
+    <MESSAGE value="feat: select table and next step" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: select table and next step" />
   </component>
 </project>

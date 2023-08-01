@@ -13,8 +13,6 @@ h
 8src/modules/order/react/sections/guest/GuestsSection.tsx,e/7/e74e68017d258e22d23e105929fababb01592704
 h
 8src/modules/order/core/usecases/choose-guests.usecase.ts,e/c/ec9ceed79a71e1b4fef1cc9208e622fde0d86a48
-e
-5src/modules/order/react/sections/menu/MenuSection.tsx,7/f/7f81240a52584bf324f81bfb8ed9fad01aeb7294
 m
 =src/modules/order/react/sections/reserved/ReservedSection.tsx,1/8/181ac9d49049b602144a45820885f7555d2096a5
 k
@@ -40,8 +38,6 @@ Q
 !src/modules/store/dependencies.ts,4/9/499d69c67601f9978fb0bd4d5ad2fd2895372110
 J
 src/modules/store/store.ts,0/5/05179f5222b15c0c7684fd0f4e7afd466c2ef576
-a
-1src/modules/order/react/pages/order/OrderPage.tsx,0/b/0b1d50c1bf56e68fdd4c3f58b3f34e59d82bfded
 g
 7src/modules/order/core/usecases/fetch-tables.usecase.ts,1/9/196b477a3366640ff1898a9bb230ccb2929ba846
 Q
