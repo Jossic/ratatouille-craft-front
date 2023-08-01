@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: select table and next step">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="74df8736-2ef9-4eb7-a0fa-12035126a3bf" name="Changes" comment="feat: get selectable entries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/guest.factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/guest.factory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/core/model/ordering.domain-model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/order/react/sections/menu/MenuSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/order/react/sections/menu/MenuSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,7 @@
       <workItem from="1688296911306" duration="1803000" />
       <workItem from="1688454291702" duration="10310000" />
       <workItem from="1690227191830" duration="13128000" />
-      <workItem from="1690399879446" duration="10020000" />
+      <workItem from="1690399879446" duration="11203000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add dependencie injection in react">
       <created>1688242966616</created>
@@ -266,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690639684563</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: get selectable entries">
+      <created>1690922513429</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690922513429</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +289,7 @@
     <MESSAGE value="feat: fetching tables usecase" />
     <MESSAGE value="feat: setup table gateway in memory and stub" />
     <MESSAGE value="feat: select table and next step" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: select table and next step" />
+    <MESSAGE value="feat: get selectable entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: get selectable entries" />
   </component>
 </project>
